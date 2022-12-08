@@ -4,7 +4,7 @@
     ```bash
     # installing miniconda for Raspberry Pi 4 (aarch64)
     $ sudo wget -c https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
-    $ sudo chmod 744 Miniforge3-Linux-aarch64.sh
+    $ sudo chmod a+x Miniforge3-Linux-aarch64.sh
     $ ./Miniforge3-Linux-aarch64.sh
     
     # creating a virtual environment using conda called pi4
