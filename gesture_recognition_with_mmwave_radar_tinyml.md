@@ -6,6 +6,7 @@
     $ sudo wget -c https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
     $ sudo chmod a+x Miniforge3-Linux-aarch64.sh
     $ ./Miniforge3-Linux-aarch64.sh
+    # close and reopen shell for installation to take effect ...
     
     # creating a virtual environment using conda called pi4
     $ conda create -n pi4 python=3.9
